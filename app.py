@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+# 資料 : https://blog.jiatool.com/posts/streamlit/ ; https://github.com/streamlit/gdp-dashboard-template
 # 設定網頁標題
 st.set_page_config(page_title="price-comparison-dashboard", page_icon="🛒",layout="wide")
 st.title("🛒跨電商平台商品比價、折扣深度分析與促銷價差儀表板")
